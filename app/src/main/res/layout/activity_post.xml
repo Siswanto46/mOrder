@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.siswanto.morder.PostActivity">
+
+    <ImageButton
+        android:id="@+id/imageBtn"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:background="@color/colorAccent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@mipmap/add_btn" />
+
+    <EditText
+        android:id="@+id/edt_Namemenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/input_outline"
+        android:hint="Name Menu ..."
+        android:inputType="textPersonName"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/edt_Stock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/input_outline"
+        android:hint="Stock ..."
+        android:inputType="numberDecimal"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/edt_Price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/input_outline"
+        android:hint="Price ..."
+        android:inputType="numberDecimal"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/edt_Desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:hint="Description ..."
+        android:background="@drawable/input_outline"/>
+
+    <Button
+        android:id="@+id/btn_Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_outline"
+        android:text="Submit" />
+</LinearLayout>
+</ScrollView>
